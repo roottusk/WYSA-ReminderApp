@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8F9931B2689DEB600339669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9931A2689DEB600339669 /* AppDelegate.swift */; };
+		A8F9931D2689DEB600339669 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9931C2689DEB600339669 /* SceneDelegate.swift */; };
+		A8F9931F2689DEB600339669 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9931E2689DEB600339669 /* ViewController.swift */; };
+		A8F993222689DEB600339669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F993202689DEB600339669 /* Main.storyboard */; };
+		A8F993252689DEB600339669 /* WYSA_ReminderApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8F993232689DEB600339669 /* WYSA_ReminderApp.xcdatamodeld */; };
+		A8F993272689DEB900339669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F993262689DEB900339669 /* Assets.xcassets */; };
+		A8F9932A2689DEB900339669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F993282689DEB900339669 /* LaunchScreen.storyboard */; };
+		A8F993352689DEB900339669 /* WYSA_ReminderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F993342689DEB900339669 /* WYSA_ReminderAppTests.swift */; };
+		A8F993402689DEB900339669 /* WYSA_ReminderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9933F2689DEB900339669 /* WYSA_ReminderAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8F993312689DEB900339669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F9930F2689DEB500339669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F993162689DEB500339669;
+			remoteInfo = "WYSA-ReminderApp";
+		};
+		A8F9933C2689DEB900339669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F9930F2689DEB500339669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F993162689DEB500339669;
+			remoteInfo = "WYSA-ReminderApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8F993172689DEB500339669 /* WYSA-ReminderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WYSA-ReminderApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F9931A2689DEB600339669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8F9931C2689DEB600339669 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A8F9931E2689DEB600339669 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8F993212689DEB600339669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8F993242689DEB600339669 /* WYSA_ReminderApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WYSA_ReminderApp.xcdatamodel; sourceTree = "<group>"; };
+		A8F993262689DEB900339669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8F993292689DEB900339669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8F9932B2689DEB900339669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F993302689DEB900339669 /* WYSA-ReminderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WYSA-ReminderAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F993342689DEB900339669 /* WYSA_ReminderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYSA_ReminderAppTests.swift; sourceTree = "<group>"; };
+		A8F993362689DEB900339669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F9933B2689DEB900339669 /* WYSA-ReminderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WYSA-ReminderAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F9933F2689DEB900339669 /* WYSA_ReminderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYSA_ReminderAppUITests.swift; sourceTree = "<group>"; };
+		A8F993412689DEB900339669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8F993142689DEB500339669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F9932D2689DEB900339669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F993382689DEB900339669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8F9930E2689DEB500339669 = {
+			isa = PBXGroup;
+			children = (
+				A8F993192689DEB500339669 /* WYSA-ReminderApp */,
+				A8F993332689DEB900339669 /* WYSA-ReminderAppTests */,
+				A8F9933E2689DEB900339669 /* WYSA-ReminderAppUITests */,
+				A8F993182689DEB500339669 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8F993182689DEB500339669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8F993172689DEB500339669 /* WYSA-ReminderApp.app */,
+				A8F993302689DEB900339669 /* WYSA-ReminderAppTests.xctest */,
+				A8F9933B2689DEB900339669 /* WYSA-ReminderAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8F993192689DEB500339669 /* WYSA-ReminderApp */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9931A2689DEB600339669 /* AppDelegate.swift */,
+				A8F9931C2689DEB600339669 /* SceneDelegate.swift */,
+				A8F9931E2689DEB600339669 /* ViewController.swift */,
+				A8F993202689DEB600339669 /* Main.storyboard */,
+				A8F993262689DEB900339669 /* Assets.xcassets */,
+				A8F993282689DEB900339669 /* LaunchScreen.storyboard */,
+				A8F9932B2689DEB900339669 /* Info.plist */,
+				A8F993232689DEB600339669 /* WYSA_ReminderApp.xcdatamodeld */,
+			);
+			path = "WYSA-ReminderApp";
+			sourceTree = "<group>";
+		};
+		A8F993332689DEB900339669 /* WYSA-ReminderAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F993342689DEB900339669 /* WYSA_ReminderAppTests.swift */,
+				A8F993362689DEB900339669 /* Info.plist */,
+			);
+			path = "WYSA-ReminderAppTests";
+			sourceTree = "<group>";
+		};
+		A8F9933E2689DEB900339669 /* WYSA-ReminderAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9933F2689DEB900339669 /* WYSA_ReminderAppUITests.swift */,
+				A8F993412689DEB900339669 /* Info.plist */,
+			);
+			path = "WYSA-ReminderAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8F993162689DEB500339669 /* WYSA-ReminderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F993442689DEB900339669 /* Build configuration list for PBXNativeTarget "WYSA-ReminderApp" */;
+			buildPhases = (
+				A8F993132689DEB500339669 /* Sources */,
+				A8F993142689DEB500339669 /* Frameworks */,
+				A8F993152689DEB500339669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WYSA-ReminderApp";
+			productName = "WYSA-ReminderApp";
+			productReference = A8F993172689DEB500339669 /* WYSA-ReminderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8F9932F2689DEB900339669 /* WYSA-ReminderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F993472689DEB900339669 /* Build configuration list for PBXNativeTarget "WYSA-ReminderAppTests" */;
+			buildPhases = (
+				A8F9932C2689DEB900339669 /* Sources */,
+				A8F9932D2689DEB900339669 /* Frameworks */,
+				A8F9932E2689DEB900339669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F993322689DEB900339669 /* PBXTargetDependency */,
+			);
+			name = "WYSA-ReminderAppTests";
+			productName = "WYSA-ReminderAppTests";
+			productReference = A8F993302689DEB900339669 /* WYSA-ReminderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8F9933A2689DEB900339669 /* WYSA-ReminderAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F9934A2689DEB900339669 /* Build configuration list for PBXNativeTarget "WYSA-ReminderAppUITests" */;
+			buildPhases = (
+				A8F993372689DEB900339669 /* Sources */,
+				A8F993382689DEB900339669 /* Frameworks */,
+				A8F993392689DEB900339669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F9933D2689DEB900339669 /* PBXTargetDependency */,
+			);
+			name = "WYSA-ReminderAppUITests";
+			productName = "WYSA-ReminderAppUITests";
+			productReference = A8F9933B2689DEB900339669 /* WYSA-ReminderAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8F9930F2689DEB500339669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A8F993162689DEB500339669 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A8F9932F2689DEB900339669 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A8F993162689DEB500339669;
+					};
+					A8F9933A2689DEB900339669 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A8F993162689DEB500339669;
+					};
+				};
+			};
+			buildConfigurationList = A8F993122689DEB500339669 /* Build configuration list for PBXProject "WYSA-ReminderApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8F9930E2689DEB500339669;
+			productRefGroup = A8F993182689DEB500339669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8F993162689DEB500339669 /* WYSA-ReminderApp */,
+				A8F9932F2689DEB900339669 /* WYSA-ReminderAppTests */,
+				A8F9933A2689DEB900339669 /* WYSA-ReminderAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8F993152689DEB500339669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F9932A2689DEB900339669 /* LaunchScreen.storyboard in Resources */,
+				A8F993272689DEB900339669 /* Assets.xcassets in Resources */,
+				A8F993222689DEB600339669 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F9932E2689DEB900339669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F993392689DEB900339669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8F993132689DEB500339669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F9931F2689DEB600339669 /* ViewController.swift in Sources */,
+				A8F9931B2689DEB600339669 /* AppDelegate.swift in Sources */,
+				A8F9931D2689DEB600339669 /* SceneDelegate.swift in Sources */,
+				A8F993252689DEB600339669 /* WYSA_ReminderApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F9932C2689DEB900339669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F993352689DEB900339669 /* WYSA_ReminderAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F993372689DEB900339669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F993402689DEB900339669 /* WYSA_ReminderAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8F993322689DEB900339669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F993162689DEB500339669 /* WYSA-ReminderApp */;
+			targetProxy = A8F993312689DEB900339669 /* PBXContainerItemProxy */;
+		};
+		A8F9933D2689DEB900339669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F993162689DEB500339669 /* WYSA-ReminderApp */;
+			targetProxy = A8F9933C2689DEB900339669 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8F993202689DEB600339669 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F993212689DEB600339669 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8F993282689DEB900339669 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F993292689DEB900339669 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8F993422689DEB900339669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8F993432689DEB900339669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8F993452689DEB900339669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WYSA-ReminderApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ctz.WYSA-ReminderApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8F993462689DEB900339669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WYSA-ReminderApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ctz.WYSA-ReminderApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8F993482689DEB900339669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WYSA-ReminderAppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ctz.WYSA-ReminderAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYSA-ReminderApp.app/WYSA-ReminderApp";
+			};
+			name = Debug;
+		};
+		A8F993492689DEB900339669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WYSA-ReminderAppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ctz.WYSA-ReminderAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYSA-ReminderApp.app/WYSA-ReminderApp";
+			};
+			name = Release;
+		};
+		A8F9934B2689DEB900339669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WYSA-ReminderAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ctz.WYSA-ReminderAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WYSA-ReminderApp";
+			};
+			name = Debug;
+		};
+		A8F9934C2689DEB900339669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WYSA-ReminderAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ctz.WYSA-ReminderAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WYSA-ReminderApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8F993122689DEB500339669 /* Build configuration list for PBXProject "WYSA-ReminderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F993422689DEB900339669 /* Debug */,
+				A8F993432689DEB900339669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F993442689DEB900339669 /* Build configuration list for PBXNativeTarget "WYSA-ReminderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F993452689DEB900339669 /* Debug */,
+				A8F993462689DEB900339669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F993472689DEB900339669 /* Build configuration list for PBXNativeTarget "WYSA-ReminderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F993482689DEB900339669 /* Debug */,
+				A8F993492689DEB900339669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F9934A2689DEB900339669 /* Build configuration list for PBXNativeTarget "WYSA-ReminderAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F9934B2689DEB900339669 /* Debug */,
+				A8F9934C2689DEB900339669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8F993232689DEB600339669 /* WYSA_ReminderApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8F993242689DEB600339669 /* WYSA_ReminderApp.xcdatamodel */,
+			);
+			currentVersion = A8F993242689DEB600339669 /* WYSA_ReminderApp.xcdatamodel */;
+			path = WYSA_ReminderApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8F9930F2689DEB500339669 /* Project object */;
+}
