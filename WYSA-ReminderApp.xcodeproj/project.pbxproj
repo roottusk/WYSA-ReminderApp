@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8E9622B268A2AFF0006AF73 /* Reminder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E96229268A2AFF0006AF73 /* Reminder+CoreDataClass.swift */; };
+		A8E9622C268A2AFF0006AF73 /* Reminder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9622A268A2AFF0006AF73 /* Reminder+CoreDataProperties.swift */; };
+		A8E9622E268A2B590006AF73 /* PersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9622D268A2B590006AF73 /* PersistentContainer.swift */; };
+		A8E96230268A310C0006AF73 /* CreateReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9622F268A310C0006AF73 /* CreateReminderViewController.swift */; };
 		A8F9931B2689DEB600339669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9931A2689DEB600339669 /* AppDelegate.swift */; };
 		A8F9931D2689DEB600339669 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9931C2689DEB600339669 /* SceneDelegate.swift */; };
 		A8F9931F2689DEB600339669 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9931E2689DEB600339669 /* MainViewController.swift */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A8E96229268A2AFF0006AF73 /* Reminder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Reminder+CoreDataClass.swift"; path = "WYSA-ReminderApp/Model/Reminder+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		A8E9622A268A2AFF0006AF73 /* Reminder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Reminder+CoreDataProperties.swift"; path = "WYSA-ReminderApp/Model/Reminder+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		A8E9622D268A2B590006AF73 /* PersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainer.swift; sourceTree = "<group>"; };
+		A8E9622F268A310C0006AF73 /* CreateReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReminderViewController.swift; sourceTree = "<group>"; };
 		A8F993172689DEB500339669 /* WYSA-ReminderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WYSA-ReminderApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9931A2689DEB600339669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8F9931C2689DEB600339669 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +158,7 @@
 		A8F9934F2689EAC600339669 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A8E9622D268A2B590006AF73 /* PersistentContainer.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -157,6 +166,8 @@
 		A8F993502689EAE900339669 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A8E96229268A2AFF0006AF73 /* Reminder+CoreDataClass.swift */,
+				A8E9622A268A2AFF0006AF73 /* Reminder+CoreDataProperties.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				A8F9931E2689DEB600339669 /* MainViewController.swift */,
+				A8E9622F268A310C0006AF73 /* CreateReminderViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -300,11 +312,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E9622E268A2B590006AF73 /* PersistentContainer.swift in Sources */,
 				A8F993542689FC7100339669 /* ReminderCell.swift in Sources */,
 				A8F9931F2689DEB600339669 /* MainViewController.swift in Sources */,
 				A8F9931B2689DEB600339669 /* AppDelegate.swift in Sources */,
+				A8E9622B268A2AFF0006AF73 /* Reminder+CoreDataClass.swift in Sources */,
+				A8E9622C268A2AFF0006AF73 /* Reminder+CoreDataProperties.swift in Sources */,
 				A8F9931D2689DEB600339669 /* SceneDelegate.swift in Sources */,
 				A8F993252689DEB600339669 /* WYSA_ReminderApp.xcdatamodeld in Sources */,
+				A8E96230268A310C0006AF73 /* CreateReminderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
