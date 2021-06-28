@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A8F9931B2689DEB600339669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9931A2689DEB600339669 /* AppDelegate.swift */; };
 		A8F9931D2689DEB600339669 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9931C2689DEB600339669 /* SceneDelegate.swift */; };
-		A8F9931F2689DEB600339669 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9931E2689DEB600339669 /* ViewController.swift */; };
+		A8F9931F2689DEB600339669 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9931E2689DEB600339669 /* MainViewController.swift */; };
 		A8F993222689DEB600339669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F993202689DEB600339669 /* Main.storyboard */; };
 		A8F993252689DEB600339669 /* WYSA_ReminderApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8F993232689DEB600339669 /* WYSA_ReminderApp.xcdatamodeld */; };
 		A8F993272689DEB900339669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F993262689DEB900339669 /* Assets.xcassets */; };
@@ -39,7 +39,7 @@
 		A8F993172689DEB500339669 /* WYSA-ReminderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WYSA-ReminderApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F9931A2689DEB600339669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8F9931C2689DEB600339669 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A8F9931E2689DEB600339669 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8F9931E2689DEB600339669 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A8F993212689DEB600339669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8F993242689DEB600339669 /* WYSA_ReminderApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WYSA_ReminderApp.xcdatamodel; sourceTree = "<group>"; };
 		A8F993262689DEB900339669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,9 +101,12 @@
 		A8F993192689DEB500339669 /* WYSA-ReminderApp */ = {
 			isa = PBXGroup;
 			children = (
+				A8F993512689EAEF00339669 /* Controller */,
+				A8F993502689EAE900339669 /* Model */,
+				A8F9934F2689EAC600339669 /* ViewModel */,
+				A8F9934D2689EABA00339669 /* View */,
 				A8F9931A2689DEB600339669 /* AppDelegate.swift */,
 				A8F9931C2689DEB600339669 /* SceneDelegate.swift */,
-				A8F9931E2689DEB600339669 /* ViewController.swift */,
 				A8F993202689DEB600339669 /* Main.storyboard */,
 				A8F993262689DEB900339669 /* Assets.xcassets */,
 				A8F993282689DEB900339669 /* LaunchScreen.storyboard */,
@@ -129,6 +132,35 @@
 				A8F993412689DEB900339669 /* Info.plist */,
 			);
 			path = "WYSA-ReminderAppUITests";
+			sourceTree = "<group>";
+		};
+		A8F9934D2689EABA00339669 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8F9934F2689EAC600339669 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8F993502689EAE900339669 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8F993512689EAEF00339669 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8F9931E2689DEB600339669 /* MainViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8F9931F2689DEB600339669 /* ViewController.swift in Sources */,
+				A8F9931F2689DEB600339669 /* MainViewController.swift in Sources */,
 				A8F9931B2689DEB600339669 /* AppDelegate.swift in Sources */,
 				A8F9931D2689DEB600339669 /* SceneDelegate.swift in Sources */,
 				A8F993252689DEB600339669 /* WYSA_ReminderApp.xcdatamodeld in Sources */,
