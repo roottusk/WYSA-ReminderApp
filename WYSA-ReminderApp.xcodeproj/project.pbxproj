@@ -21,7 +21,7 @@
 		A8F993352689DEB900339669 /* WYSA_ReminderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F993342689DEB900339669 /* WYSA_ReminderAppTests.swift */; };
 		A8F993402689DEB900339669 /* WYSA_ReminderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9933F2689DEB900339669 /* WYSA_ReminderAppUITests.swift */; };
 		A8F993542689FC7100339669 /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F993522689FC7100339669 /* ReminderCell.swift */; };
-		A8F993552689FC7100339669 /* reminderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F993532689FC7100339669 /* reminderCell.xib */; };
+		A8F993552689FC7100339669 /* ReminderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F993532689FC7100339669 /* ReminderCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		A8F9933F2689DEB900339669 /* WYSA_ReminderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYSA_ReminderAppUITests.swift; sourceTree = "<group>"; };
 		A8F993412689DEB900339669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8F993522689FC7100339669 /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
-		A8F993532689FC7100339669 /* reminderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = reminderCell.xib; sourceTree = "<group>"; };
+		A8F993532689FC7100339669 /* ReminderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				A8F993522689FC7100339669 /* ReminderCell.swift */,
-				A8F993532689FC7100339669 /* reminderCell.xib */,
+				A8F993532689FC7100339669 /* ReminderCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,7 +287,7 @@
 				A8F9932A2689DEB900339669 /* LaunchScreen.storyboard in Resources */,
 				A8F993272689DEB900339669 /* Assets.xcassets in Resources */,
 				A8F993222689DEB600339669 /* Main.storyboard in Resources */,
-				A8F993552689FC7100339669 /* reminderCell.xib in Resources */,
+				A8F993552689FC7100339669 /* ReminderCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

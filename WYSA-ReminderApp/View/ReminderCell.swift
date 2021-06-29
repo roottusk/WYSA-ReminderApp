@@ -24,4 +24,10 @@ class ReminderCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func setReminderView(reminder: Reminder) {
+        self.reminderTitle.text = reminder.title
+        self.reminderDesc.text = reminder.desc
+        self.reminderTime.text = reminder.time?.description
+    }
+    
 }
