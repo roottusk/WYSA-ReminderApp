@@ -4,7 +4,6 @@
 //
 //  Created by Chaitanya Deshpande on 28/06/21.
 //
-
 import UIKit
 
 class CreateReminderViewController: UIViewController {
@@ -21,6 +20,10 @@ class CreateReminderViewController: UIViewController {
     }
     
     @IBAction func saveAction(_ sender: Any) {
+        let reminder : Reminder = Reminder()
+        reminder.createReminder(title: titleTextField.text ?? "", note: noteTextField.text ?? "", time: dateTimePicker.date)
+        
+        print(reminder.getAllReminders()?.debugDescription ?? "LOL")
         self.dismiss(animated: true, completion: nil)
     }
     

@@ -17,7 +17,7 @@ extension Reminder {
     }
 
     @NSManaged public var desc: String?
-    @NSManaged public var id: Int64
+    @NSManaged public var id: UUID
     @NSManaged public var isCompleted: Bool
     @NSManaged public var time: Date?
     @NSManaged public var title: String?

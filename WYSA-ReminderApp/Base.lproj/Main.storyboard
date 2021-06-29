@@ -24,7 +24,7 @@
                                 <rect key="frame" x="107" y="762" width="200" height="50"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="JdT-2X-zd8"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="JdT-2X-zd8"/>
                                     <constraint firstAttribute="height" constant="50" id="RXF-Sg-hcW"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
@@ -124,6 +124,7 @@
                             </textField>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Cv8-ip-BZI">
                                 <rect key="frame" x="20" y="321" width="374" height="216"/>
+                                <color key="tintColor" systemColor="systemPinkColor"/>
                             </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set Date &amp; Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jb-EQ-ywe">
                                 <rect key="frame" x="20" y="290" width="374" height="21"/>
@@ -136,7 +137,7 @@
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="3aL-CX-bft"/>
-                                    <constraint firstAttribute="width" constant="200" id="bKb-12-oxm"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="bKb-12-oxm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                 <state key="normal" title="Save">
