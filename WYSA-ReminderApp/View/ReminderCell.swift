@@ -27,7 +27,20 @@ class ReminderCell: UITableViewCell {
     func setReminderView(reminder: Reminder) {
         self.reminderTitle.text = reminder.title
         self.reminderDesc.text = reminder.desc
-        self.reminderTime.text = reminder.time?.description
+        
+        let formatter = DateFormatter()
+        // initially set the format based on your datepicker date / server String
+        formatter.dateFormat = "dd-MMM-yyyy HH:mm:ss"
+
+        let myString = formatter.string(from: reminder.time!)
+        self.reminderTime.text = myString
+        
+        if reminder.time! < Date() {
+            self.reminderTime.textColor = UIColor.red
+        }
+        else {
+            self.reminderTime.textColor = UIColor.darkGray
+        }
     }
     
 }
